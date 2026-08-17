@@ -1,0 +1,418 @@
+### Matchday 1
+Arsenal | Coventry City
+Hull City | Manchester United
+Ipswich Town | Sunderland
+Nottingham Forest | Leeds United
+Everton | Crystal Palace
+Brentford | Tottenham Hotspur
+Manchester City | AFC Bournemouth
+Brighton & Hove Albion | Aston Villa
+Newcastle United | Liverpool
+Fulham | Chelsea
+### Matchday 2
+Liverpool | Nottingham Forest
+Manchester United | Ipswich Town
+Sunderland | Fulham
+Crystal Palace | Manchester City
+Chelsea | Brighton & Hove Albion
+Aston Villa | Arsenal
+Tottenham Hotspur | Newcastle United
+Leeds United | Brentford
+AFC Bournemouth | Everton
+Coventry City | Hull City
+### Matchday 3
+Nottingham Forest | Tottenham Hotspur
+Manchester City | Coventry City
+Brighton & Hove Albion | Leeds United
+Brentford | Sunderland
+Ipswich Town | Liverpool
+Everton | Manchester United
+Fulham | Crystal Palace
+Hull City | Aston Villa
+Arsenal | Chelsea
+Newcastle United | AFC Bournemouth
+### Matchday 4
+Crystal Palace | Ipswich Town
+Liverpool | Fulham
+Aston Villa | Nottingham Forest
+Tottenham Hotspur | Everton
+AFC Bournemouth | Brentford
+Sunderland | Arsenal
+Coventry City | Brighton & Hove Albion
+Leeds United | Newcastle United
+Manchester United | Manchester City
+Chelsea | Hull City
+### Matchday 5
+AFC Bournemouth | Liverpool
+Fulham | Manchester United
+Everton | Ipswich Town
+Leeds United | Crystal Palace
+Brighton & Hove Albion | Arsenal
+Tottenham Hotspur | Aston Villa
+Newcastle United | Hull City
+Nottingham Forest | Coventry City
+Manchester City | Sunderland
+Brentford | Chelsea
+### Matchday 6
+Sunderland | Brighton & Hove Albion
+Arsenal | Leeds United
+Hull City | Everton
+Chelsea | AFC Bournemouth
+Crystal Palace | Nottingham Forest
+Coventry City | Newcastle United
+Liverpool | Manchester City
+Ipswich Town | Fulham
+Manchester United | Tottenham Hotspur
+Aston Villa | Brentford
+### Matchday 7
+Fulham | Hull City
+Everton | Chelsea
+AFC Bournemouth | Sunderland
+Leeds United | Manchester United
+Tottenham Hotspur | Coventry City
+Newcastle United | Aston Villa
+Nottingham Forest | Arsenal
+Brighton & Hove Albion | Crystal Palace
+Manchester City | Ipswich Town
+Brentford | Liverpool
+### Matchday 8
+Liverpool | Brighton & Hove Albion
+Crystal Palace | Newcastle United
+Aston Villa | Manchester City
+Manchester United | AFC Bournemouth
+Arsenal | Everton
+Chelsea | Tottenham Hotspur
+Coventry City | Fulham
+Hull City | Brentford
+Ipswich Town | Nottingham Forest
+Sunderland | Leeds United
+### Matchday 9
+Newcastle United | Everton
+Manchester City | Brighton & Hove Albion
+AFC Bournemouth | Leeds United
+Coventry City | Sunderland
+Chelsea | Manchester United
+Tottenham Hotspur | Crystal Palace
+Aston Villa | Fulham
+Hull City | Ipswich Town
+Brentford | Nottingham Forest
+Liverpool | Arsenal
+### Matchday 10
+Arsenal | Hull City
+Nottingham Forest | Manchester City
+Leeds United | Tottenham Hotspur
+Fulham | Newcastle United
+Everton | Coventry City
+Crystal Palace | Liverpool
+Sunderland | Chelsea
+Ipswich Town | AFC Bournemouth
+Brighton & Hove Albion | Brentford
+Manchester United | Aston Villa
+### Matchday 11
+Chelsea | Leeds United
+Manchester City | Fulham
+Aston Villa | Sunderland
+Liverpool | Manchester United
+Hull City | Brighton & Hove Albion
+AFC Bournemouth | Nottingham Forest
+Tottenham Hotspur | Ipswich Town
+Brentford | Everton
+Coventry City | Crystal Palace
+Newcastle United | Arsenal
+### Matchday 12
+Leeds United | Coventry City
+Ipswich Town | Aston Villa
+Arsenal | Manchester City
+Manchester United | Brentford
+Everton | Liverpool
+Fulham | AFC Bournemouth
+Nottingham Forest | Chelsea
+Brighton & Hove Albion | Newcastle United
+Sunderland | Tottenham Hotspur
+Crystal Palace | Hull City
+### Matchday 13
+Tottenham Hotspur | Fulham
+Liverpool | Sunderland
+Hull City | Nottingham Forest
+Chelsea | Crystal Palace
+Aston Villa | Everton
+Brentford | Arsenal
+Coventry City | Ipswich Town
+Manchester City | Leeds United
+Newcastle United | Manchester United
+AFC Bournemouth | Brighton & Hove Albion
+### Matchday 14
+Tottenham Hotspur | Arsenal
+Manchester United | Coventry City
+Leeds United | Ipswich Town
+Newcastle United | Sunderland
+Chelsea | Liverpool
+Brentford | Manchester City
+AFC Bournemouth | Hull City
+Aston Villa | Crystal Palace
+Nottingham Forest | Brighton & Hove Albion
+Everton | Fulham
+### Matchday 15
+Sunderland | Nottingham Forest
+Crystal Palace | Manchester United
+Hull City | Tottenham Hotspur
+Brighton & Hove Albion | Everton
+Ipswich Town | Newcastle United
+Coventry City | Aston Villa
+Arsenal | AFC Bournemouth
+Manchester City | Chelsea
+Liverpool | Leeds United
+Fulham | Brentford
+### Matchday 16
+Leeds United | Fulham
+Brighton & Hove Albion | Ipswich Town
+Nottingham Forest | Everton
+Brentford | Newcastle United
+Manchester City | Hull City
+Sunderland | Crystal Palace
+AFC Bournemouth | Coventry City
+Arsenal | Manchester United
+Liverpool | Tottenham Hotspur
+Chelsea | Aston Villa
+### Matchday 17
+Aston Villa | Leeds United
+Manchester United | Nottingham Forest
+Crystal Palace | Arsenal
+Everton | Sunderland
+Coventry City | Chelsea
+Newcastle United | Manchester City
+Fulham | Brighton & Hove Albion
+Tottenham Hotspur | AFC Bournemouth
+Hull City | Liverpool
+Ipswich Town | Brentford
+### Matchday 18
+Fulham | Arsenal
+Coventry City | Brentford
+Aston Villa | Liverpool
+Newcastle United | Nottingham Forest
+Hull City | Leeds United
+Manchester United | Sunderland
+Ipswich Town | Chelsea
+Tottenham Hotspur | Brighton & Hove Albion
+Everton | Manchester City
+Crystal Palace | AFC Bournemouth
+### Matchday 19
+AFC Bournemouth | Aston Villa
+Brentford | Crystal Palace
+Leeds United | Everton
+Arsenal | Ipswich Town
+Sunderland | Hull City
+Liverpool | Coventry City
+Chelsea | Newcastle United
+Nottingham Forest | Fulham
+Brighton & Hove Albion | Manchester United
+Manchester City | Tottenham Hotspur
+### Matchday 20
+Arsenal | Brentford
+Leeds United | Manchester City
+Manchester United | Newcastle United
+Brighton & Hove Albion | AFC Bournemouth
+Nottingham Forest | Hull City
+Fulham | Tottenham Hotspur
+Everton | Aston Villa
+Sunderland | Liverpool
+Crystal Palace | Chelsea
+Ipswich Town | Coventry City
+### Matchday 21
+AFC Bournemouth | Ipswich Town
+Manchester City | Nottingham Forest
+Chelsea | Sunderland
+Brentford | Brighton & Hove Albion
+Aston Villa | Manchester United
+Tottenham Hotspur | Leeds United
+Coventry City | Everton
+Liverpool | Crystal Palace
+Hull City | Arsenal
+Newcastle United | Fulham
+### Matchday 22
+Ipswich Town | Hull City
+Everton | Brentford
+Sunderland | Coventry City
+Nottingham Forest | AFC Bournemouth
+Arsenal | Newcastle United
+Leeds United | Chelsea
+Fulham | Aston Villa
+Manchester United | Liverpool
+Brighton & Hove Albion | Manchester City
+Crystal Palace | Tottenham Hotspur
+### Matchday 23
+Tottenham Hotspur | Sunderland
+Brentford | Manchester United
+Newcastle United | Brighton & Hove Albion
+Hull City | Crystal Palace
+Coventry City | Leeds United
+AFC Bournemouth | Fulham
+Chelsea | Nottingham Forest
+Liverpool | Everton
+Manchester City | Arsenal
+Aston Villa | Ipswich Town
+### Matchday 24
+Arsenal | Liverpool
+Brighton & Hove Albion | Hull City
+Sunderland | Aston Villa
+Crystal Palace | Coventry City
+Ipswich Town | Tottenham Hotspur
+Everton | Newcastle United
+Fulham | Manchester City
+Leeds United | AFC Bournemouth
+Manchester United | Chelsea
+Nottingham Forest | Brentford
+### Matchday 25
+Everton | Leeds United
+Coventry City | Liverpool
+Hull City | Sunderland
+Aston Villa | AFC Bournemouth
+Crystal Palace | Brentford
+Newcastle United | Chelsea
+Fulham | Nottingham Forest
+Tottenham Hotspur | Manchester City
+Manchester United | Brighton & Hove Albion
+Ipswich Town | Arsenal
+### Matchday 26
+Manchester City | Newcastle United
+AFC Bournemouth | Crystal Palace
+Brentford | Coventry City
+Chelsea | Ipswich Town
+Liverpool | Hull City
+Arsenal | Fulham
+Nottingham Forest | Manchester United
+Brighton & Hove Albion | Tottenham Hotspur
+Sunderland | Everton
+Leeds United | Aston Villa
+### Matchday 27
+Crystal Palace | Sunderland
+Manchester United | Arsenal
+Ipswich Town | Brighton & Hove Albion
+Coventry City | AFC Bournemouth
+Everton | Nottingham Forest
+Fulham | Leeds United
+Aston Villa | Chelsea
+Tottenham Hotspur | Liverpool
+Newcastle United | Brentford
+Hull City | Manchester City
+### Matchday 28
+Nottingham Forest | Newcastle United
+AFC Bournemouth | Tottenham Hotspur
+Manchester City | Everton
+Arsenal | Crystal Palace
+Leeds United | Hull City
+Sunderland | Manchester United
+Liverpool | Aston Villa
+Brighton & Hove Albion | Fulham
+Brentford | Ipswich Town
+Chelsea | Coventry City
+### Matchday 29
+Leeds United | Brighton & Hove Albion
+Tottenham Hotspur | Nottingham Forest
+Crystal Palace | Fulham
+Liverpool | Ipswich Town
+Coventry City | Manchester City
+AFC Bournemouth | Newcastle United
+Chelsea | Arsenal
+Aston Villa | Hull City
+Manchester United | Everton
+Sunderland | Brentford
+### Matchday 30
+Brentford | AFC Bournemouth
+Brighton & Hove Albion | Coventry City
+Manchester City | Manchester United
+Ipswich Town | Crystal Palace
+Arsenal | Sunderland
+Fulham | Liverpool
+Hull City | Chelsea
+Nottingham Forest | Aston Villa
+Everton | Tottenham Hotspur
+Newcastle United | Leeds United
+### Matchday 31
+Sunderland | Ipswich Town
+Leeds United | Nottingham Forest
+Manchester United | Hull City
+Chelsea | Fulham
+Liverpool | Newcastle United
+Coventry City | Arsenal
+AFC Bournemouth | Manchester City
+Crystal Palace | Everton
+Tottenham Hotspur | Brentford
+Aston Villa | Brighton & Hove Albion
+### Matchday 32
+Brighton & Hove Albion | Chelsea
+Fulham | Sunderland
+Brentford | Leeds United
+Nottingham Forest | Liverpool
+Hull City | Coventry City
+Arsenal | Aston Villa
+Ipswich Town | Manchester United
+Manchester City | Crystal Palace
+Newcastle United | Tottenham Hotspur
+Everton | AFC Bournemouth
+### Matchday 33
+Chelsea | Manchester City
+AFC Bournemouth | Arsenal
+Tottenham Hotspur | Hull City
+Manchester United | Crystal Palace
+Everton | Brighton & Hove Albion
+Nottingham Forest | Sunderland
+Newcastle United | Ipswich Town
+Aston Villa | Coventry City
+Brentford | Fulham
+Leeds United | Liverpool
+### Matchday 34
+Sunderland | Newcastle United
+Brighton & Hove Albion | Nottingham Forest
+Coventry City | Manchester United
+Hull City | AFC Bournemouth
+Manchester City | Brentford
+Fulham | Everton
+Liverpool | Chelsea
+Arsenal | Tottenham Hotspur
+Crystal Palace | Aston Villa
+Ipswich Town | Leeds United
+### Matchday 35
+Manchester City | Liverpool
+Leeds United | Arsenal
+Fulham | Ipswich Town
+Nottingham Forest | Crystal Palace
+Brentford | Aston Villa
+Newcastle United | Coventry City
+Brighton & Hove Albion | Sunderland
+Tottenham Hotspur | Chelsea
+Everton | Hull City
+AFC Bournemouth | Manchester United
+### Matchday 36
+Hull City | Fulham
+Manchester United | Leeds United
+Crystal Palace | Brighton & Hove Albion
+Aston Villa | Newcastle United
+Chelsea | Everton
+Coventry City | Tottenham Hotspur
+Sunderland | AFC Bournemouth
+Liverpool | Brentford
+Ipswich Town | Manchester City
+Arsenal | Nottingham Forest
+### Matchday 37
+Brentford | Hull City
+Newcastle United | Crystal Palace
+Tottenham Hotspur | Manchester United
+Leeds United | Sunderland
+Brighton & Hove Albion | Liverpool
+Nottingham Forest | Ipswich Town
+AFC Bournemouth | Chelsea
+Fulham | Coventry City
+Everton | Arsenal
+Manchester City | Aston Villa
+### Matchday 38
+Ipswich Town | Everton
+Arsenal | Brighton & Hove Albion
+Liverpool | AFC Bournemouth
+Coventry City | Nottingham Forest
+Aston Villa | Tottenham Hotspur
+Hull City | Newcastle United
+Manchester United | Fulham
+Sunderland | Manchester City
+Chelsea | Brentford
+Crystal Palace | Leeds United

@@ -1,0 +1,21 @@
+# Betfair exchange mid-prices (mid of two central rungs), 2026-08-17
+Arsenal          2.29
+Man City         4.85
+Liverpool        7.5
+Chelsea          10.25
+Man Utd          13.25
+Tottenham        40
+Aston Villa      92.5
+Brentford        360
+Newcastle        430
+Brighton         540
+Leeds            565
+Nottm Forest     740
+Everton          815
+Bournemouth      875
+Crystal Palace   930
+Ipswich          940
+Coventry         950
+Fulham           950
+Sunderland       955
+Hull             1000
