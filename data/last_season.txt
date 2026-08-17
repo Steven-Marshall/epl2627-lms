@@ -1,0 +1,24 @@
+# EPL 2025/26 final points — the "table" prior for team strength.
+# 17 returning teams = actual final points. 3 promoted teams = PRIOR estimates
+# (no EPL points last season; override these freely — match odds correct them fast).
+# name                 | points | note
+Arsenal               | 85 | actual (champions)
+Man City              | 78 | actual
+Man United            | 71 | actual
+Aston Villa           | 65 | actual
+Liverpool             | 60 | actual
+Bournemouth           | 57 | actual
+Sunderland            | 54 | actual
+Brighton              | 53 | actual
+Brentford             | 53 | actual
+Chelsea               | 52 | actual
+Fulham                | 52 | actual
+Newcastle             | 49 | actual
+Everton               | 49 | actual
+Leeds                 | 47 | actual
+Crystal Palace        | 45 | actual
+Nottingham Forest     | 44 | actual
+Tottenham             | 41 | actual (17th)
+Coventry              | 40 | PRIOR (promoted)
+Ipswich               | 39 | PRIOR (promoted)
+Hull City             | 35 | PRIOR (promoted)
