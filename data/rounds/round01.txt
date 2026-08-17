@@ -1,0 +1,13 @@
+# Round 1 (Aug 21-24) — Betfair Exchange 1X2, back/lay MID prices.
+# Read from ladder screenshot, 2026-08-17.
+# home | away | H | D | A
+Arsenal           | Coventry        | 1.205 | 8.3   | 20.5
+Hull City         | Man United      | 9.5   | 5.05  | 1.435
+Everton           | Crystal Palace  | 2.27  | 3.575 | 3.55
+Ipswich           | Sunderland      | 2.84  | 3.425 | 2.79
+Nottingham Forest | Leeds           | 2.42  | 3.55  | 3.30
+Brentford         | Tottenham       | 2.55  | 3.775 | 2.89
+Brighton          | Aston Villa     | 2.33  | 3.875 | 3.225
+Man City          | Bournemouth     | 1.525 | 5.25  | 6.7
+Newcastle         | Liverpool       | 3.925 | 4.05  | 2.005
+Fulham            | Chelsea         | 3.675 | 4.025 | 2.10

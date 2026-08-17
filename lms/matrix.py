@@ -5,6 +5,7 @@ cells get overwritten by real 1X2 odds once those are supplied.
 import csv
 import os
 
+from lms.matchodds import available_rounds, round_overrides
 from lms.strength import ratings
 from lms.winprob import win_prob
 
@@ -20,17 +21,25 @@ def load_fixtures(data_dir=DATA):
     return rounds
 
 
-def build_matrix(data_dir=DATA, R=None):
-    """-> {(team, round): {'opp', 'home', 'pwin'}} for all projected rounds."""
+def build_matrix(data_dir=DATA, R=None, use_odds=True):
+    """-> {(team, round): {'opp', 'home', 'pwin', 'src'}}.
+
+    Projected from ratings, then any round with a real 1X2 odds file overrides
+    those cells (src='odds' vs src='proj').
+    """
     R = R or ratings(data_dir)
     fixtures = load_fixtures(data_dir)
     cells = {}
     for rnd, games in fixtures.items():
         for home, away in games:
-            cells[(home, rnd)] = {"opp": away, "home": True,
+            cells[(home, rnd)] = {"opp": away, "home": True, "src": "proj",
                                   "pwin": win_prob(R[home], R[away], home=True)}
-            cells[(away, rnd)] = {"opp": home, "home": False,
+            cells[(away, rnd)] = {"opp": home, "home": False, "src": "proj",
                                   "pwin": win_prob(R[away], R[home], home=False)}
+    if use_odds:
+        for n in available_rounds(data_dir):
+            for key, cell in round_overrides(n, data_dir).items():
+                cells[key] = {**cell, "src": "odds"}
     return cells
 
 
