@@ -23,26 +23,30 @@ def main():
     cells = build_matrix()
     route, _ = plan(horizon=horizon, start=start, cells=cells)
 
-    plan_teams = {route[r]["team"] for r in route}  # reserved by the plan
-
-    print(f"PLANNED ROUTE from round {start} — 1st (plan) & 2nd (off-plan backup)\n")
+    print(f"PLANNED ROUTE from round {start} — 1st (plan) & 2nd (best available alt)\n")
     print(f"  {'rnd':>3}  {'1st pick':<18}{'fixture':<18}{'P':>6}   "
           f"{'2nd pick':<18}{'fixture':<18}{'P':>6}")
     print("  " + "-" * 90)
+    spent = set()  # teams used by the plan's 1st picks in earlier rounds
     for rnd in sorted(route):
         first = route[rnd]
-        # 2nd = best team this round the plan does NOT use anywhere (a free backup)
+        # 2nd = best team playing this round you still hold (not the 1st, not spent)
         alts = [(t, c) for (t, r), c in cells.items()
-                if r == rnd and t not in plan_teams]
+                if r == rnd and t != first["team"] and t not in spent]
         alts.sort(key=lambda x: -x[1]["pwin"])
         second = alts[0] if alts else None
         f_fx, f_p = fx(first), first["pwin"]
         if second:
             s_t, s_c = second
-            s_line = f"{s_t:<18}{fx(s_c):<18}{s_c['pwin']*100:>5.0f}%"
+            # mark: the alt is STRONGER than the plan pick -> plan is saving it
+            mark = " *" if s_c["pwin"] > f_p else ""
+            s_line = f"{s_t:<18}{fx(s_c):<18}{s_c['pwin']*100:>5.0f}%{mark}"
         else:
             s_line = "-"
         print(f"  {rnd:>3}  {first['team']:<18}{f_fx:<18}{f_p*100:>5.0f}%   {s_line}")
+        spent.add(first["team"])
+    print("\n  * the alternative outrates the plan pick — the plan is deliberately "
+          "saving that team for a better round.")
 
 
 if __name__ == "__main__":
