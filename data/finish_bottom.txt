@@ -1,7 +1,9 @@
 # Betfair "To finish BOTTOM (20th / wooden spoon)" market — single-outcome, sums to ~1.
 # Back/lay MID where tight; best-back where the lay side is thin/£1. 2026-08-18.
 # Discriminates the tail (who's worst) — the instrument the title market can't be.
-# Man City's shown ~34 is joke money (excluded -> 1000). Top teams not listed -> ~0.
+# Man City's shown ~34 is a REAL hedge vs a points-deduction (financial case), not
+# joke money -- but it's an off-pitch risk that doesn't affect match RESULTS, so we
+# exclude it from a results-strength rating (-> 1000). Top teams not listed -> ~0.
 # name                 | odds
 Hull City             | 1.93
 Coventry              | 6.4
