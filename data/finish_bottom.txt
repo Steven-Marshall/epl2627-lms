@@ -1,0 +1,25 @@
+# Betfair "To finish BOTTOM (20th / wooden spoon)" market — single-outcome, sums to ~1.
+# Back/lay MID where tight; best-back where the lay side is thin/£1. 2026-08-18.
+# Discriminates the tail (who's worst) — the instrument the title market can't be.
+# Man City's shown ~34 is joke money (excluded -> 1000). Top teams not listed -> ~0.
+# name                 | odds
+Hull City             | 1.93
+Coventry              | 6.4
+Ipswich               | 6.3
+Sunderland            | 23.5
+Fulham                | 42
+Crystal Palace        | 57
+Newcastle             | 85
+Nottingham Forest     | 85
+Leeds                 | 100
+Everton               | 100
+Bournemouth           | 105
+Brentford             | 130
+Brighton              | 220
+Tottenham             | 280
+Aston Villa           | 250
+Man City              | 1000
+Arsenal               | 1000
+Liverpool             | 1000
+Man United            | 1000
+Chelsea               | 1000
