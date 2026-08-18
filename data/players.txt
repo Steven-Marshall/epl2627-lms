@@ -1,0 +1,3 @@
+# Roster of players in the pool (one per line). Lets the tracker flag who hasn't
+# picked yet. Edit freely — ~10-20 mates expected.
+# (fill in after Week 1)

@@ -1,0 +1,4 @@
+# The mates' picks — one row per player per round. Fill `result` (W/D/L) after
+# the games play. Team names are fuzzy-matched (Spurs, Man Utd, Nott'm Forest ok).
+# This is the raw material for the field/crowding layer later.
+round,player,team,result
