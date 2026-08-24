@@ -1,3 +1,24 @@
-# Roster of players in the pool (one per line). Lets the tracker flag who hasn't
-# picked yet. Edit freely — ~10-20 mates expected.
-# (fill in after Week 1)
+# Roster of players in the pool (one per line). ~24 runners.
+Smarshy
+Hasan
+VinnyDaLoo
+Kenny
+Josh Wansell
+Andrea
+Treve
+Malley
+PK1
+Bobby A
+Col the Cat
+Andrew L
+Jp C
+Keith W
+Matthew Woodford
+Mr Random
+Andy W
+Jimmy D
+Paul Murphy
+Mr T
+Georgie B
+Conrad B
+robrams
