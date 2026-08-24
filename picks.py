@@ -26,14 +26,19 @@ def main():
         lp = f"R{lastpick[0]} {lastpick[1] or '?'} {lastpick[2] or ''}".strip()
         print(f"  {name:<14}{p['lives_left']:>6}{status:>10}{len(p['used']):>6}  {lp}")
 
-    # clone pairs: alive players with identical used-team sets (WC lesson)
-    alive = [(n, p) for n, p in st.items() if p["alive"]]
-    clones = [(a, b) for (a, pa), (b, pb) in combinations(alive, 2)
-              if set(pa["used"]) == set(pb["used"]) and pa["used"]]
-    if clones:
-        print("\n  CLONE PAIRS (identical used-lists -> can't separate; watch these):")
-        for a, b in clones:
-            print(f"    {a} = {b}")
+    # clone blocs: alive players grouped by identical used-list (WC lesson).
+    # A bloc of size k can't separate internally -> none can win outright vs the
+    # others while they stay matched. Meaningful once used-lists start diverging.
+    from collections import defaultdict
+    blocs = defaultdict(list)
+    for n, p in st.items():
+        if p["alive"] and p["used"]:
+            blocs[tuple(sorted(p["used"]))].append(n)
+    big = sorted((g for g in blocs.values() if len(g) > 1), key=len, reverse=True)
+    if big:
+        print("\n  CLONE BLOCS (identical used-lists -> can't separate within a bloc):")
+        for g in big:
+            print(f"    [{len(g):>2}]  {', '.join(sorted(g))}")
 
     # who on the roster hasn't picked the latest round
     picked = {r["player"] for r in load_picks() if r["round"] == last}

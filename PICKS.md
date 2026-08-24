@@ -49,3 +49,27 @@ reserve. Three mavericks off the board entirely: Malley (Everton, 44%), robrams
 this early.
 
 Expected life-losses across the field this weekend: **~7.1**.
+
+### Round 1 — results
+
+**Hull City 2-0 Manchester United.** The shock of the weekend and the story of our
+pool: total underdogs, first day back in the top flight, Hull do to United exactly
+what Grimsby did in the cup last season. The **five** who took United — the
+*disciplined* play that kept Arsenal in reserve — all drop a life. The twelve-strong
+**Arsenal herd cruise through 3-0**. Strategy doesn't beat a bad night: the model's
+70% ran headlong into the 30%.
+
+Around it: Man City 2-1 Bournemouth, **Everton 2-0 Crystal Palace** (Malley's maverick
+punt lands — the one gambler who survives), Brighton 4-0 Villa, Newcastle 2-2
+Liverpool. **Forest 0-1 Leeds** and **Brentford 3-0 Spurs** sink the other two
+mavericks, robrams and Mr T. Fulham v Chelsea (Andy W, Jimmy D) plays Monday night.
+
+**Standings:** 17 on three lives (incl. the two Chelsea backers, pending), **7 down to
+two** — the five United backers plus robrams and Mr T. No eliminations (3 lives).
+
+The irony of week one: the herd that "over-harvested" Arsenal looks smart, and the
+sharp minority who saved their ace took the hit — Smarshy among them, getting the
+bittersweet pleasure of watching United humbled on the Humber while a life slips away.
+That's Last Man Standing: being right about strategy is the long game; any one round
+is a coin the football tosses. **Clone blocs standing:** Arsenal 12, United 5, plus
+two twos. 🐟
