@@ -30,11 +30,12 @@ against the one on your doorstep. 🐟
 
 | Team | Picks | Field % | P(win) |
 |--|--|--|--|
-| **Arsenal** | **12** | **52%** | 83% |
-| Man Utd | 5 | 22% | 70% |
-| Man City | 2 | 9% | 66% |
-| Chelsea | 2 | 9% | 48% |
+| **Arsenal** | **12** | **50%** | 83% |
+| Man Utd | 5 | 21% | 70% |
+| Man City | 2 | 8% | 66% |
+| Chelsea | 2 | 8% | 48% |
 | Everton (Malley) | 1 | 4% | 44% |
+| Forest (robrams) | 1 | 4% | 41% |
 | Tottenham (Mr T) | 1 | 4% | 34% |
 
 Over **half the field burned Arsenal in week one** — the safest banker, but in doing
@@ -43,7 +44,8 @@ so they threw away Arsenal's biggest future value (its Round 10 home game vs Hul
 get knocked out* rather than EV. The dozen Arsenal-pickers are now a **clone bloc** —
 identical used-lists, so they'll rise and fall together and none can win outright
 unless someone breaks away. Smarshy's Man Utd group quietly kept its whole hand in
-reserve. Two mavericks off the board entirely: Malley (Everton, 44%) and Mr T (Spurs,
-34%), taking real risk with no need to differentiate this early.
+reserve. Three mavericks off the board entirely: Malley (Everton, 44%), robrams
+(Forest, 41%) and Mr T (Spurs, 34%), taking real risk with no need to differentiate
+this early.
 
-Expected life-losses across the field this weekend: **~6.5**.
+Expected life-losses across the field this weekend: **~7.1**.
