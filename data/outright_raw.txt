@@ -1,21 +1,22 @@
-# Betfair exchange mid-prices (mid of two central rungs), 2026-08-17
-Arsenal          2.29
-Man City         4.85
-Liverpool        7.5
-Chelsea          10.25
-Man Utd          13.25
-Tottenham        40
-Aston Villa      92.5
-Brentford        360
-Newcastle        430
-Brighton         540
-Leeds            565
-Nottm Forest     740
-Everton          815
-Bournemouth      875
-Crystal Palace   930
-Ipswich          940
-Coventry         950
-Fulham           950
-Sunderland       955
-Hull             1000
+# Betfair title odds, updated post-Round 1 (2026-08-25). Mid of central rungs.
+# Forest/Everton lines were garbage (2.0 / 1.04) -> kept prior. Unlisted longshots kept prior.
+Arsenal            1.94
+Man City           5.75
+Chelsea            7.1
+Liverpool          12.25
+Man Utd            22.5
+Tottenham          65
+Brentford          170
+Brighton           185
+Aston Villa        195
+Newcastle          290
+Leeds              395
+Nottingham Forest  740
+Everton            815
+Bournemouth        875
+Crystal Palace     930
+Ipswich            940
+Fulham             950
+Coventry           950
+Sunderland         955
+Hull City          1000

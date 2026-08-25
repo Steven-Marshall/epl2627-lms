@@ -5,10 +5,10 @@
 # joke money -- but it's an off-pitch risk that doesn't affect match RESULTS, so we
 # exclude it from a results-strength rating (-> 1000). Top teams not listed -> ~0.
 # name                 | odds
-Hull City             | 1.93
-Coventry              | 6.4
-Ipswich               | 6.3
-Sunderland            | 23.5
+Hull City             | 2.2
+Coventry              | 4.7
+Ipswich               | 8.0
+Sunderland            | 14
 Fulham                | 42
 Crystal Palace        | 57
 Newcastle             | 85

@@ -2,23 +2,23 @@
 # Columns: name | outright_odds (decimal, to win the league)
 #
 # name                 | outright
-Arsenal               | 2.29
-Aston Villa           | 92.5
+Arsenal               | 1.94
+Aston Villa           | 195.0
 Bournemouth           | 875.0
-Brentford             | 360.0
-Brighton              | 540.0
-Chelsea               | 10.25
+Brentford             | 170.0
+Brighton              | 185.0
+Chelsea               | 7.1
 Coventry              | 950.0
 Crystal Palace        | 930.0
 Everton               | 815.0
 Fulham                | 950.0
 Hull City             | 1000.0
 Ipswich               | 940.0
-Leeds                 | 565.0
-Liverpool             | 7.5
-Man City              | 4.85
-Man United            | 13.25
-Newcastle             | 430.0
+Leeds                 | 395.0
+Liverpool             | 12.25
+Man City              | 5.75
+Man United            | 22.5
+Newcastle             | 290.0
 Nottingham Forest     | 740.0
 Sunderland            | 955.0
-Tottenham             | 40.0
+Tottenham             | 65.0
