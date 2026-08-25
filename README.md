@@ -5,6 +5,10 @@ Sibling to the completed World Cup engine (`../footy`) but a **different game**:
 bracket, draws kill you, three lives, and the scarce resource is good fixtures
 rather than surviving teams.
 
+**Follow the season:** [`PICKS.md`](PICKS.md) is the live dashboard (standings +
+index); [`rounds/`](rounds/) holds a write-up per round — the model's read, the pick,
+the field, the results and commentary — each written once and never overwritten.
+
 ---
 
 ## The rules (this pool)
