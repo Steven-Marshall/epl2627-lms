@@ -1,0 +1,12 @@
+# Round 2 — Betfair Exchange 1X2, back/lay MID prices. 2026-08-25.
+# home | away | H | D | A
+Crystal Palace    | Man City           | 5.8   | 4.35  | 1.67
+Liverpool         | Nottingham Forest  | 1.52  | 5.0   | 7.1
+Bournemouth       | Everton            | 2.17  | 3.65  | 3.75
+Coventry          | Hull City          | 1.925 | 3.75  | 4.7
+Tottenham         | Newcastle          | 2.33  | 3.825 | 3.225
+Chelsea           | Brighton           | 1.995 | 3.975 | 4.05
+Leeds             | Brentford          | 2.66  | 3.55  | 2.90
+Sunderland        | Fulham             | 2.56  | 3.40  | 3.15
+Man Utd           | Ipswich            | 1.46  | 5.3   | 7.8
+Aston Villa       | Arsenal            | 7.0   | 4.45  | 1.57
