@@ -1,0 +1,12 @@
+# Round 3 — Betfair Exchange 1X2, back/lay MID prices. 2026-09-12.
+# home | away | H | D | A
+Ipswich           | Liverpool          | 5.85  | 4.85  | 1.595
+Newcastle         | Bournemouth        | 2.30  | 3.875 | 3.25
+Brentford         | Sunderland         | 1.65  | 4.2   | 6.4
+Brighton          | Leeds              | 1.90  | 3.875 | 4.6
+Fulham            | Crystal Palace     | 2.41  | 3.525 | 3.30
+Man City          | Coventry           | 1.21  | 9.0   | 16.75
+Nottingham Forest | Tottenham          | 2.62  | 3.575 | 2.93
+Hull City         | Aston Villa        | 4.45  | 3.875 | 1.915
+Everton           | Man Utd            | 3.325 | 3.775 | 2.32
+Arsenal           | Chelsea            | 1.785 | 3.925 | 5.35
