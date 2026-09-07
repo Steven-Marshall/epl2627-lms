@@ -9,18 +9,30 @@ the same fate. Archived as-is; we'll re-run it as the field thins.*
 
 ---
 
-## 1. The field collapses fast, then freezes
+## 1. The 20-team budget ends it around New Year
+
+Two clocks are ticking, and the second one is decisive.
+
+**The attrition clock** — the field halves fast:
 
 ```
-Avg still alive:  24 → 18 (R7) → 12 (R10) → 7 (R16) → ~4 (R19) → stalls at ~4 to the end
+Avg still alive:  24 → 18 (R7) → 12 (R10) → 7 (R16) → ~5 (R18)
 ```
 
-The carnage is almost entirely **rounds 4–19**. The pool goes from 24 to about four in
-fifteen weeks — and then **eliminations essentially stop**. Once it's down to a handful
-of players on full lives picking bankers, they almost never all fail (and the all-lose
-rule protects a unanimous slip). ~4 survivors is a stable attractor that coasts to the
-final whistle. **First elimination: median Round 5 — i.e. next week.** The cull starts
-now.
+**The budget clock** — and this is the one that actually stops the game. There are only
+20 teams and you can't repick, so everyone still standing has spent exactly one team per
+round. By **round 20 a survivor has burned all twenty teams and physically cannot pick a
+21st.** The competition can't run to May; it's hard-capped in the depths of winter.
+
+The two together:
+
+- **First elimination: median round 5** — the cull starts basically now.
+- **Winner set locks: median round 18, and 90% of the time by round 20.** After that the
+  survivors run out of teams (median round 21) and — under the all-lose rule — whoever's
+  left is declared joint winner(s).
+
+So this is settled by roughly **Christmas / New Year**, not the final whistle. The
+carnage is rounds 4–20; the back half of the season never gets played.
 
 ## 2. It probably ends in a split
 
@@ -95,10 +107,10 @@ and terribly *to earn*.**
 
 ## 5. The prediction, in a sentence
 
-**The field halves by October and settles into a stable ~3–4 survivors who most likely
-carve up the pot — unless one of the differentiated players (Jimmy D on three lives, or
-Malley on his maverick path) is the last one standing when the herd finally hits a bad
-week.** Watch for the round a big banker slips (a City or a Chelsea, the way Liverpool
+**The field halves by November and the 20-team budget locks the result around New Year,
+most likely with ~3–4 survivors carving up the pot — unless one of the differentiated
+players (Jimmy D on three lives, or Malley on his maverick path) is the last one standing
+when the herd hits a bad week.** Watch for the round a big banker slips (a City or a Chelsea, the way Liverpool
 did in Round 2): *that's* the moment the clone blocs get gutted en masse and a lone wolf
 inherits the whole thing.
 

@@ -54,13 +54,15 @@ def main():
     split_sizes = Counter()
     alive_after = defaultdict(float)   # round -> avg alive
     first_elim = []
+    decided = []      # round the winner set locks (last elimination / drop to 1)
+    exhausted = []    # round survivors run out of teams (forced None pick)
 
     for _ in range(n_sims):
         players = {n: {"used": set(s["used"]), "lives": s["lives"]}
                    for n, s in base.items()}
         alive = set(players)
         last = set(alive)
-        elim_seen = None
+        elim_seen = last_elim = exhaust_round = None
         for rnd in range(start, 39):
             if len(alive) <= 1:
                 break
@@ -86,8 +88,12 @@ def main():
                     players[n]["lives"] -= 1
                     if players[n]["lives"] <= 0:
                         dead.add(n)
-            if dead and elim_seen is None:
-                elim_seen = rnd
+            if exhaust_round is None and any(v is None for v in picks.values()):
+                exhaust_round = rnd
+            if dead:
+                last_elim = rnd
+                if elim_seen is None:
+                    elim_seen = rnd
             alive -= dead
             if alive:
                 last = set(alive)
@@ -96,6 +102,9 @@ def main():
         split_sizes[len(winners)] += 1
         if elim_seen:
             first_elim.append(elim_seen)
+        decided.append(last_elim if last_elim else start)
+        if exhaust_round:
+            exhausted.append(exhaust_round)
         share = 1.0 / len(winners)
         for n in winners:
             money[n] += 1
@@ -111,10 +120,18 @@ def main():
         print(f"  {k:>2} joint winner(s): {split_sizes[k]/n_sims*100:5.1f}%")
     solo_total = split_sizes.get(1, 0) / n_sims * 100
     print(f"  -> solo winner {solo_total:.1f}%,  split {100-solo_total:.1f}%")
+    def pct(lst, p):
+        return sorted(lst)[min(len(lst) - 1, int(len(lst) * p))]
+
     if first_elim:
-        fe = sorted(first_elim)
-        print(f"\n  First elimination: median round {fe[len(fe)//2]}, "
-              f"earliest {fe[0]} (in {len(first_elim)/n_sims*100:.0f}% of runs someone goes)")
+        print(f"\n  First elimination: median round {pct(first_elim, 0.5)}, "
+              f"earliest {min(first_elim)}")
+    if decided:
+        print(f"  WINNER SET LOCKS (last elimination): median round "
+              f"{pct(decided, 0.5)}, 90% locked by round {pct(decided, 0.9)}")
+    if exhausted:
+        print(f"  Teams exhausted (20-team budget forces a pass): median round "
+              f"{pct(exhausted, 0.5)} -- the game is hard-capped here")
 
     print("\nFIELD SIZE (avg still alive after round):")
     for r in range(start, 39, 3):

@@ -18,7 +18,7 @@ who knows the numbers rather better than he knows the football.
 
 ## Predictions
 
-- [Prediction 01](rounds/prediction-01.md) *(after Round 3)* — 20k-run season sim: **33% solo / 67% split**, field settles to ~4 survivors; ranked by **EV (expected pot share)** — differentiation earns, herding dilutes (the 7-clone Arsenal bloc: 18% in-money but 1.8% EV, below fair share).
+- [Prediction 01](rounds/prediction-01.md) *(after Round 3)* — 20k-run season sim: **33% solo / 67% split**; the **20-team budget locks the result by ~New Year** (winner set median round 18). Ranked by **EV (expected pot share)** — differentiation earns, herding dilutes (the 7-clone Arsenal bloc: 18% in-money but 1.8% EV, below fair share).
 
 ## Standings — after Round 3
 
