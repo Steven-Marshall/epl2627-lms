@@ -16,6 +16,10 @@ who knows the numbers rather better than he knows the football.
 | [Round 2](rounds/round-02.md) | 29–31 Aug | **Liverpool 2-2 Forest** — the herd of 12 all drop a life; Man Utd romp 5-2 |
 | [Round 3](rounds/round-03.md) | 5–6 Sep | **Man City 1-0 Coventry** — 71% herd holds; Malley's maverick run ends |
 
+## Predictions
+
+- [Prediction 01](rounds/prediction-01.md) *(after Round 3)* — 20k-run season sim: **33% solo / 67% split**, field settles to ~4 survivors; differentiation is the only route to an outright win.
+
 ## Standings — after Round 3
 
 | Lives | # | Players |
