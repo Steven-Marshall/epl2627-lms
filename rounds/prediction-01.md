@@ -39,18 +39,29 @@ This is the whole story, and it's the World Cup lesson made flesh:
 
 | Player | Lives | In-money | **Solo win** | |
 |--|--|--|--|--|
-| Bobby A / Josh Wansell / Jp C | 3 | 36% | **0%** | clone bloc — best survival, *can't win alone* |
+| Bobby A / Josh Wansell / Jp C | 3 | 36% | **0%*** | clone bloc — best survival, 0% solo *in the sim* |
 | **Jimmy D** | 3 | 34% | **9.1%** | 3 lives **and** differentiated — best-placed |
 | **Malley** | 2 | 25% | **7.0%** | the maverick's edge |
-| the 7-strong Arsenal bloc | 2 | 18% ea | **0% ea** | seven players, zero solo equity between them |
+| the 7-strong Arsenal bloc | 2 | 18% ea | **0%* ea** | seven players, 0% solo *in the sim* |
 | Smarshy | 1 | **3%** | ~0% | one life — survival, not victory (yet) |
 
-The blocs with the *highest survival* have **zero** chance of winning outright — they
-bank shares, forever tied to their twins. **Malley alone (7%) has more outright-win
-equity than all seven Arsenal clones combined (0%).** Differentiation is the *only*
-road to the whole pot, and Malley's "difficult mode" is exactly that road — the same
-instinct that won him the World Cup LMS. (The sim is even *harsh* on him: it plays him
-greedily; the real Malley differentiates harder, so his true solo chance is higher.)
+**\*Read that 0% carefully — it's an artifact of the model, not a rule of the game.**
+Because a clone bloc shares an identical used-list *and* the sim picks greedily (best
+available), its members make the same pick every week and so **never separate** — which
+forces their solo chance to exactly zero. In *reality* a clone is free to pick a
+different unused team, break the symmetry, and win alone. It's just (a) against
+everything this field has done so far, and (b) game-theoretically **dominated** — the
+World Cup's *volunteer's dilemma*: the player who breaks away usually just gifts the
+solo win to the twin who stayed put. So it's **very unlikely and self-defeating, not
+impossible.**
+
+The takeaway holds either way: the blocs with the *highest survival* are the ones with
+*least* claim on the whole pot — they're built to split. **Malley's 7% is real,
+free-standing solo equity; the seven Arsenal clones would each have to *actively break
+formation* to earn any.** Differentiation is the road to winning outright, and Malley's
+"difficult mode" travels it for nothing — the same instinct that won him the World Cup
+LMS. (The sim is even *harsh* on him: it plays him greedily, so his true solo chance is
+higher than 7%.)
 
 ## 4. The prediction, in a sentence
 
