@@ -14,20 +14,21 @@ who knows the numbers rather better than he knows the football.
 |--|--|--|
 | [Round 1](rounds/round-01.md) | 21–24 Aug | **Hull 2-0 Man Utd** — 7 drop to two lives |
 | [Round 2](rounds/round-02.md) | 29–31 Aug | **Liverpool 2-2 Forest** — the herd of 12 all drop a life; Man Utd romp 5-2 |
+| [Round 3](rounds/round-03.md) | 5–6 Sep | **Man City 1-0 Coventry** — 71% herd holds; Malley's maverick run ends |
 
-## Standings — after Round 2
+## Standings — after Round 3
 
 | Lives | # | Players |
 |--|--|--|
-| **3** | 7 | Josh Wansell · Bobby A · Jp C · Andy W · Jimmy D · Col the Cat · **Malley** |
-| **2** | 13 | Hasan · VinnyDaLoo · Kenny · Andrea · Treve · PK1 · Andrew L · Keith W · Matthew Woodford · Mr Random · Georgie B · Conrad B · robrams |
-| **1** | 4 | **Smarshy** · Paul Murphy · Mr T · Adderz |
+| **3** | 4 | Bobby A · Josh Wansell · Jp C · Jimmy D |
+| **2** | 14 | Andrea · Andrew L · Andy W · Col the Cat · Georgie B · Hasan · Keith W · Kenny · **Malley** · Mr Random · PK1 · Treve · VinnyDaLoo · robrams |
+| **1** | 6 | **Smarshy** · Paul Murphy · Adderz · Mr T · Matthew Woodford · Conrad B |
 
-Still no eliminations (3 lives). 14 of 24 lost a life in Round 2.
+Three rounds, **still no eliminations** (3 lives) — but the field is compressing: a
+quarter of the pool is down to its last life.
 
 ## Clone blocs (identical used-lists — can't separate within a bloc)
 
-- **[7]** Andrea · Andrew L · Hasan · Keith W · PK1 · Treve · VinnyDaLoo *(Arsenal→Liverpool)*
-- **[3]** Bobby A · Josh Wansell · Jp C *(Arsenal→Man Utd)*
-- **[3]** Smarshy · Paul Murphy · Adderz *(Man Utd→Liverpool)*
-- **[2]** Andy W · Jimmy D *(Chelsea→Man Utd)*
+- **[7]** Andrea · Andrew L · Hasan · Keith W · PK1 · Treve · VinnyDaLoo
+- **[3]** Smarshy · Paul Murphy · Adderz *(Man Utd→Liverpool→City, 3 rounds matched)*
+- **[3]** Bobby A · Josh Wansell · Jp C
