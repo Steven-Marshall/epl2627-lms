@@ -1,0 +1,12 @@
+# Round 4 — Betfair Exchange 1X2, back/lay MID prices. 2026-09-19.
+# home | away | H | D | A
+Aston Villa       | Nottingham Forest  | 2.22  | 3.60  | 3.65
+Bournemouth       | Brentford          | 2.60  | 3.725 | 2.88
+Chelsea           | Hull City          | 1.265 | 7.1   | 14.75
+Crystal Palace    | Ipswich            | 1.95  | 4.025 | 4.2
+Liverpool         | Fulham             | 1.49  | 5.35  | 7.2
+Tottenham         | Everton            | 2.10  | 3.725 | 3.95
+Sunderland        | Arsenal            | 8.1   | 4.55  | 1.515
+Coventry          | Brighton           | 4.25  | 3.875 | 1.955
+Man Utd           | Man City           | 3.225 | 4.05  | 2.23
+Leeds             | Newcastle          | 2.47  | 3.625 | 3.10
