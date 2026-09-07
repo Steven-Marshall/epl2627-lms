@@ -50,6 +50,7 @@ def main():
     base = initial_state(start)
     solo = Counter()
     money = Counter()
+    ev = Counter()          # expected pot share (1/N to each of N joint winners)
     split_sizes = Counter()
     alive_after = defaultdict(float)   # round -> avg alive
     first_elim = []
@@ -95,8 +96,10 @@ def main():
         split_sizes[len(winners)] += 1
         if elim_seen:
             first_elim.append(elim_seen)
+        share = 1.0 / len(winners)
         for n in winners:
             money[n] += 1
+            ev[n] += share
             if len(winners) == 1:
                 solo[n] += 1
 
@@ -117,12 +120,12 @@ def main():
     for r in range(start, 39, 3):
         print(f"  R{r:<2} {alive_after[r]/n_sims:5.1f}")
 
-    print("\nBEST-PLACED PLAYERS  (P in the money / P solo win):")
-    ranked_players = sorted(base, key=lambda n: -money[n])
-    print(f"  {'player':<16}{'lives':>6}{'in-money':>10}{'solo win':>10}")
-    for n in ranked_players:
-        print(f"  {n:<16}{base[n]['lives']:>6}{money[n]/n_sims*100:>9.1f}%"
-              f"{solo[n]/n_sims*100:>9.1f}%")
+    print("\nBEST-PLACED PLAYERS  (ranked by EV = expected % of the pot):")
+    print(f"  {'player':<16}{'lives':>6}{'EV%':>7}{'in-money':>10}{'solo win':>10}")
+    for n in sorted(base, key=lambda n: -ev[n]):
+        print(f"  {n:<16}{base[n]['lives']:>6}{ev[n]/n_sims*100:>6.1f}%"
+              f"{money[n]/n_sims*100:>9.1f}%{solo[n]/n_sims*100:>9.1f}%")
+    print(f"\n  fair/equal share = {100/len(base):.1f}%  ·  EVs sum to 100% of the pot")
 
 
 if __name__ == "__main__":

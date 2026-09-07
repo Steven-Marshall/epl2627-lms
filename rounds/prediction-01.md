@@ -63,7 +63,37 @@ formation* to earn any.** Differentiation is the road to winning outright, and M
 LMS. (The sim is even *harsh* on him: it plays him greedily, so his true solo chance is
 higher than 7%.)
 
-## 4. The prediction, in a sentence
+## 4. The money tells a different story — EV
+
+In-money and solo are *probabilities*. **EV is the money** — your expected *fraction of
+the pot*, crediting you 1/N whenever you win in an N-way split. Ranked by EV, the field
+reorders completely:
+
+| Rank | Player | Lives | **EV %** | In-money | Solo |
+|--|--|--|--|--|--|
+| 1 | **Jimmy D** | 3 | **15.9%** | 34.9% | 9.6% |
+| 2 | **Malley** | 2 | **12.0%** | 25.6% | 7.4% |
+| 3 | Andy W | 2 | 8.6% | 22.6% | 4.5% |
+| 4= | Bobby A / Josh Wansell / Jp C | 3 | **7.7%** | **37.2%** | 0% |
+| … | the 7-strong Arsenal bloc | 2 | **1.8%** ea | 17.7% ea | 0% |
+| … | Smarshy | 1 | **0.3%** | 3.4% | 0% |
+
+*(fair/equal share = 4.2%; the EVs sum to 100% of the pot.)*
+
+**In-money and EV point in opposite directions.** The three-man clone bloc has the
+*highest survival in the entire field* (37% in-money) but only **7.7% EV** — because it
+never wins alone, every cash is a split and the money is diluted to a thin slice. The
+7-strong Arsenal bloc is starker still: **17.7% in-money but 1.8% EV — below the 4.2%
+fair share.** Their in-money is worth about a *tenth* as much, per event, as Jimmy D's.
+
+**EV rewards concentration, not survival.** Jimmy D and Malley run away with it because
+their winnings are concentrated — solo or small splits, big slices. Read the top two
+again: **Malley, on two lives, out-EVs all three of the three-life clones** (12.0% vs
+7.7%). A maverick down a life is worth more in expected pounds than the best survivors
+in the pool. That's the whole thesis in cash: **the herd plays beautifully *not to lose*
+and terribly *to earn*.**
+
+## 5. The prediction, in a sentence
 
 **The field halves by October and settles into a stable ~3–4 survivors who most likely
 carve up the pot — unless one of the differentiated players (Jimmy D on three lives, or
@@ -72,7 +102,7 @@ week.** Watch for the round a big banker slips (a City or a Chelsea, the way Liv
 did in Round 2): *that's* the moment the clone blocs get gutted en masse and a lone wolf
 inherits the whole thing.
 
-## 5. And Smarshy, honestly 🐟
+## 6. And Smarshy, honestly 🐟
 
 **A long shot — ~3%, effectively 0% to win outright right now.** On one life, one more
 non-win ends it, and he'd need to win essentially every remaining pick *and* be one of
