@@ -40,6 +40,9 @@ def initial_state(start_round):
 def main():
     n_sims = int(sys.argv[1]) if len(sys.argv) > 1 else 20000
     start = int(sys.argv[2]) if len(sys.argv) > 2 else 4
+    # any names after start pick a RANDOM available team each round (the house's
+    # auto-allocation bot), instead of greedy best-available.
+    random_players = set(sys.argv[3:])
     cells = build_matrix()
 
     # per round: teams sorted by win prob desc (for fast best-available)
@@ -69,7 +72,11 @@ def main():
             picks = {}
             for n in alive:
                 u = players[n]["used"]
-                for t in ranked[rnd]:
+                if n in random_players:                      # dice roll over unused
+                    avail = [t for t in CANON if t not in u]
+                    picks[n] = random.choice(avail) if avail else None
+                    continue
+                for t in ranked[rnd]:                        # greedy best-available
                     if t not in u:
                         picks[n] = t
                         break
