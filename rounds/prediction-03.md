@@ -33,58 +33,75 @@ strong — it's evidence this game is cruel. The recalibration's real work was i
 the teams the seven survivors must pick from now the elite is used up. A truer model is a
 **harsher** one.
 
-## 2. The forecast: one champion, crowned by late November
+## 2. The forecast: one champion, but *when* is a wide spread
 
 | | After R4 (Pred 02) | **After R5 (Pred 03)** |
 |--|--|--|
-| Solo winner | ~62% | **~76%** |
-| Split | ~38% | ~24% |
-| Winner set locks | median R14 | **median R11** (~late Nov) |
+| Solo winner | ~62% | **~90%** |
+| Split | ~38% | ~10% |
+| Winner crowned | median R14 | **median R10–11** (~early November) |
 
-Seven from twenty-four, five of them on a single life. This is no longer a pool that can
-settle into a shared pot — it's **one champion, most likely decided inside six more
-rounds**, and hard-capped at Round 21 by the 20-team budget regardless.
+Seven from twenty-four, five on a single life — and it resolves to **one champion about
+nine times in ten.** It's also front-loaded: roughly **a third are decided by Round 9**
+(late October), the **median crowning is Round 10–11** (early November), and only about
+**8%** grind to the Round-21 budget cap (~New Year) and split.
 
-## 3. The board — a two-man race, with a coin lurking
+That pace turns on the pool's exact deadlock rule, now confirmed: **a non-win costs a life
+as normal — even in a round where nobody wins — right up until the moment *every* remaining
+player is on their last life.** Only then, with no champion possible if they all fell at
+once, is a no-win round voided so the survivors play on. So the protection is a narrow
+endgame tie-breaker, not a general shield: the field collapses fast, and the one-life
+players are genuinely fragile — a one-lifer on ~55% picks is only **~12–30%** to last four
+more rounds. The 20-team budget is the hard stop: the game **cannot** run past Round 21.
+
+## 3. The board — Josh out front, the extra life is king
 
 Ranked by EV (expected pot share; fair share = 14.3%), Mr Random modelled as the **true
 dice roll**:
 
 | Player | Lives | EV % | Solo |
 |--|--|--|--|
-| **Josh Wansell** | 2 | **30.7%** | 21.3% |
-| **Jimmy D** | 1 | **27.1%** | 25.6% |
-| Mr Random | 2 | 15.8% | 15.8% |
-| Jp C | 1 | 7.6% | 5.0% |
-| Andy W | 1 | 7.1% | 4.5% |
-| PK1 | 1 | 6.5% | **0%** |
-| Bobby A | 1 | 5.2% | 3.6% |
+| **Josh Wansell** | 2 | **47.3%** | 42.5% |
+| **Jimmy D** | 1 | **22.0%** | 21.3% |
+| Mr Random | 2 | 18.0% | 18.0% |
+| Andy W | 1 | 5.9% | 4.5% |
+| PK1 | 1 | 3.9% | **0%** |
+| Jp C | 1 | 1.7% | 1.2% |
+| Bobby A | 1 | 1.3% | 1.0% |
 
-**Josh Wansell and Jimmy D are 58% of the pot between them** — a two-horse race. And look
-how close they are: Josh has **two** lives, Jimmy D has **one**, yet they're nearly level.
-Jimmy D's board is simply better — he saved the elite teams the others burned, so he still
-has the sharpest picks in front of him. The second life and the better board very nearly
-cancel out. That's the whole thesis of this project in one line of a table: **what's left
-on your card is worth about as much as a life.**
+Under the real rule, the **extra life is the master variable.** A no-win round now kills a
+one-life player, so the cushion Josh and the coin are carrying is worth far more than it
+looked — **Josh Wansell is a runaway favourite at 47%, nearly half the pot on his own.**
 
-PK1 is the cautionary tale — **0% solo**. His used-list shadows Josh's on four of five
-teams, so greedy-forward he keeps landing on the same picks and can only ever *split* with
-a man who has more lives. Even after the clone blocs shattered, one shadow remains.
+But board quality still speaks, and this is the subtle bit: **Jimmy D holds second (22%) on
+a single life** — his leftover card is so much sharper than anyone else's (the elite teams
+saved, a banker still in hand) that his one life outranks the coin's two. So the pecking
+order is precise: *two lives and a decent board* (Josh) ≫ *one life and an elite board*
+(Jimmy D) ≈ *two lives and no plan at all* (the coin) ≫ everyone else. The three remaining
+one-lifers with ordinary boards — Andy W, Jp C, Bobby A — are close to dead weight now,
+each under a tenth of the pot.
 
-## 4. The coin got worse — because the model got better 🎲
+PK1 is the last shadow — **0% solo**. His used-list mirrors Josh's on four of five teams, so
+greedy-forward he keeps landing on Josh's picks and can only ever *split* with a man who has
+more lives. Even after the clone blocs shattered, one clone-of-one remains.
 
-The reveal still stands: model **Mr Random** greedy and it flatters to a chart-topping
-**47.5% EV**; model it as the genuine dice roll and it's **15.8% (3rd)**. But recalibration
-quietly *demoted* the coin, and the reason is the sharpest thing we've learned all season:
+## 4. The coin, honestly measured 🎲
 
-**Making the weak teams genuinely weak hurts the random bot more than it hurts the
-thinkers.** A dice roll walks onto the tail half the time; a thinker steps around it. The
-wider and truer the real gap between good and bad teams, the more there is to avoid — and
-avoiding it is the entire payoff of thinking. Mr Random thrived against a *blurry* model's
-field; against a *sharp* one, blind picking costs more. The coin is still alive on two
-lives, and every win it takes is solo — so it remains the most dangerous single entry in
-the field. It's just no longer *winning* this on the numbers. Thinking, it turns out, pays
-exactly to the extent that the world is legible — and we just made it more legible.
+The reveal holds and it's still the sharpest thing in the model: pretend **Mr Random** picks
+like everyone else (greedy) and it tops the chart at a flattering **52% EV**; model it as the
+genuine dice roll it actually is and it's **18% — third.** That gap, 52% down to 18%, *is*
+the value of thinking, laid out in a single line: everything the coin "earns" in the naive
+sim is really being earned by the strategy it doesn't have.
+
+And yet third is remarkable. On two lives, picking blind, it still sits **above fair share
+(14.3%)** and ahead of five thinking humans. Two things carry it: the **extra life**, which
+the corrected rule just made precious, and the one structural gift a random picker can't help
+having — **it never shares a used-list, so every win it takes is solo** (its in-money, solo
+and EV are the same 18%). It will never split a pot because it was never in a crowd. The coin
+doesn't win this on the numbers — Josh's cushion and Jimmy D's board both beat it — but it
+remains the most dangerous *single* entry in the field, precisely because it cannot be
+correlated with anyone. Thinking pays; but so, a little, does having no plan that anyone can
+copy.
 
 ## 5. The state of the seven — the week ahead
 
@@ -111,8 +128,10 @@ seeing, because it's where "coinflip territory" starts to bite:
 ## 6. Footnote 🐟
 
 Seven players, and the model that spent five rounds keeping people *alive* now spends its
-time working out who gets to be *alone*. It has crowned a two-man race, rated a one-life
-board level with a two-life cushion, and — having finally been made honest — quietly
-concluded that the coin it once feared is only the third-best thing in the room. The
-octopus grows sharper; the game grows crueller; and somewhere in the field a random number
-generator is about to make its pick without a single thought in its head. 🐙
+time working out who gets to be *alone*. It has installed Josh Wansell as a clear favourite,
+priced an extra life above all the clever board-management in the world, ranked Jimmy D's
+lone-but-loaded card level with a coin holding two lives, and — having finally been made
+honest about both the teams and the rules — concluded that the dice it once feared is the
+third-best thing in the room and still the hardest to catch. The octopus grows sharper; the
+game grows crueller; and somewhere in the field a random number generator is about to make
+its pick without a single thought in its head. 🐙

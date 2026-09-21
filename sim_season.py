@@ -7,8 +7,11 @@ correlation that makes herds dangerous). A non-win costs a life; out on the 3rd.
 Last player standing wins; if the season (round 38) runs out or the last players
 fall together, they split.
 
-All-lose rule (provisional): if NO alive player's pick wins in a round, nobody
-loses a life.
+All-lose / deadlock rule (confirmed): a non-win costs a life as normal, EXCEPT
+when nobody wins AND every remaining player is already on their last life —
+eliminating them all would leave no champion, so that round is void and all
+continue. While anyone still holds an extra life, a no-win round costs lives
+normally.
 
     python sim_season.py [n_sims] [start_round]
 """
@@ -85,13 +88,18 @@ def main():
             teams = {t for t in picks.values() if t}
             won = {t: random.random() < pwin[(t, rnd)] for t in teams}
             any_win = any(picks[n] and won[picks[n]] for n in alive)
+            # Deadlock rule: void the round (no life loss) only when nobody won AND
+            # everyone left is already on their last life -- otherwise a non-win costs
+            # a life as normal, even in a round where nobody wins.
+            all_last = all(players[n]["lives"] <= 1 for n in alive)
+            void = (not any_win) and all_last
             dead = set()
             for n in alive:
                 t = picks[n]
                 if t:
                     players[n]["used"].add(t)
                 survived = bool(t) and won[t]
-                if not survived and any_win:
+                if not survived and not void:
                     players[n]["lives"] -= 1
                     if players[n]["lives"] <= 0:
                         dead.add(n)
