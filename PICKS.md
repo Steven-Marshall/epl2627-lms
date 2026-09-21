@@ -22,6 +22,7 @@ who knows the numbers rather better than he knows the football.
 
 - [Prediction 01](rounds/prediction-01.md) *(after Round 3)* — 20k-run season sim: **33% solo / 67% split**; the **20-team budget locks the result by ~New Year** (winner set median round 18). Ranked by **EV (expected pot share)** — differentiation earns, herding dilutes.
 - [Prediction 02](rounds/prediction-02.md) *(after Round 4)* — the bloodbath flipped it: **~62% solo now**, locks ~mid-Dec; the differentiated 2-lifers (Jimmy D, Jp C) lead. Centrepiece: the **random-bot experiment** — "Mr Random" is the house's dice roll, and it **buries the herd (~15× the clones) but loses to the contrarians.** Thinking only pays if it makes you different.
+- [Prediction 03](rounds/prediction-03.md) *(after Round 5)* — **recalibrated** model (in-season markets) + Round 6 odds folded in: **~76% solo**, locks ~late Nov. A **two-man race** — Josh Wansell & Jimmy D are 58% of the pot, and a one-life board rates level with a two-life cushion. The twist: **sharpening the model *demoted* the coin** (Mr Random 3rd) — thinking pays exactly as much as the world is legible.
 
 ## Standings — after Round 5
 

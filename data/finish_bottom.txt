@@ -1,27 +1,28 @@
-# Betfair "To finish BOTTOM (20th / wooden spoon)" market — single-outcome, sums to ~1.
-# Back/lay MID where tight; best-back where the lay side is thin/£1. 2026-08-18.
-# Discriminates the tail (who's worst) — the instrument the title market can't be.
-# Man City's shown ~34 is a REAL hedge vs a points-deduction (financial case), not
-# joke money -- but it's an off-pitch risk that doesn't affect match RESULTS, so we
-# exclude it from a results-strength rating (-> 1000). Top teams not listed -> ~0.
-# name                 | odds
-Hull City             | 2.2
-Coventry              | 4.7
-Ipswich               | 8.0
-Sunderland            | 14
-Fulham                | 42
-Crystal Palace        | 57
-Newcastle             | 85
-Nottingham Forest     | 85
-Leeds                 | 100
-Everton               | 100
-Bournemouth           | 105
-Brentford             | 130
-Brighton              | 220
-Tottenham             | 280
-Aston Villa           | 250
-Man City              | 1000
-Arsenal               | 1000
-Liverpool             | 1000
-Man United            | 1000
-Chelsea               | 1000
+# Betfair "To be RELEGATED (bottom 3)" market — the tail instrument.
+# 2026-09-21 (after Round 5): switched from the pre-season "finish 20th" market to
+# the in-season relegation market, which is more liquid and now prices the teams that
+# have slid into danger (Spurs, Forest). Three teams go down, so vig-free probs sum
+# to ~3 (the reader de-vigs to exactly 3). Listed prices are real; the "10 bar" —
+# every unlisted (safe) team at 25.0 — is a placeholder: those teams carry little
+# bottom-weight, so precision there is immaterial to the rating.
+# name                 | odds (to be relegated)
+Coventry              | 1.52
+Hull City             | 1.7
+Ipswich               | 2.4
+Crystal Palace        | 3.24
+Fulham                | 3.85
+Sunderland            | 4.9
+Tottenham             | 9.0
+Nottingham Forest     | 10.0
+Arsenal               | 25.0
+Man City              | 25.0
+Liverpool             | 25.0
+Chelsea               | 25.0
+Man United            | 25.0
+Aston Villa           | 25.0
+Bournemouth           | 25.0
+Brentford             | 25.0
+Brighton              | 25.0
+Newcastle             | 25.0
+Everton               | 25.0
+Leeds                 | 25.0

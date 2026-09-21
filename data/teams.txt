@@ -1,24 +1,27 @@
 # EPL 2026/27 teams — human-edited sheet.
 # Columns: name | outright_odds (decimal, to win the league)
+# 2026-09-21 (after Round 5): refreshed to in-season Betfair title market.
+# Listed prices are real; the "50 bar" tail (Man Utd, Villa, Newcastle, Spurs, ...)
+# are estimates — they carry ~0 weight in the rating, so precision there is immaterial.
 #
 # name                 | outright
-Arsenal               | 1.94
-Aston Villa           | 195.0
-Bournemouth           | 875.0
-Brentford             | 170.0
-Brighton              | 185.0
-Chelsea               | 7.1
-Coventry              | 950.0
-Crystal Palace        | 930.0
-Everton               | 815.0
-Fulham                | 950.0
+Arsenal               | 2.07
+Man City              | 2.67
+Liverpool             | 21.5
+Chelsea               | 28.5
+Brighton              | 49.0
+Man United            | 60.0
+Aston Villa           | 70.0
+Newcastle             | 90.0
+Tottenham             | 150.0
+Bournemouth           | 250.0
+Brentford             | 400.0
+Everton               | 500.0
+Leeds                 | 500.0
+Fulham                | 500.0
+Crystal Palace        | 750.0
+Nottingham Forest     | 750.0
+Sunderland            | 750.0
+Coventry              | 1000.0
 Hull City             | 1000.0
-Ipswich               | 940.0
-Leeds                 | 395.0
-Liverpool             | 12.25
-Man City              | 5.75
-Man United            | 22.5
-Newcastle             | 290.0
-Nottingham Forest     | 740.0
-Sunderland            | 955.0
-Tottenham             | 65.0
+Ipswich               | 1000.0

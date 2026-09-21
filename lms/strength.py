@@ -3,8 +3,10 @@
 THREE market/table anchors, each trusted only where it carries signal:
   - TITLE   : outright title odds -> implied expected points. Sharp for the top
               ~6, flat/useless below (everyone ~0.1% to win).
-  - BOTTOM  : 'to finish bottom' (wooden-spoon) odds -> implied points. Sharp for
-              the tail (who's worst), the instrument the title market can't be.
+  - BOTTOM  : 'to be relegated (bottom 3)' odds -> implied points. Sharp for the
+              tail (who's in danger), the instrument the title market can't be.
+              (Pre-season this was the 'finish 20th' market; switched in-season to
+              the more liquid relegation market — see data/finish_bottom.txt.)
   - TABLE   : last season's final points. Fills the middle; a prior for the tail.
 
 Hierarchical weighting: the title market claims a team first (w_title high for
@@ -26,12 +28,14 @@ DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, "data
 # TITLE odds -> expected points:  epts = A + B * ln P(champ)
 # Anchored so the clear favourite (~86 pts) and the flat tail (~40 pts) land right.
 MKT_A, MKT_B = 92.3, 7.58
-# BOTTOM odds -> expected points:  bpts = A + B * ln P(finish bottom)
-# Anchored: wooden-spoon favourite (~evens -> ~22 pts), a ~4% shot (~45 pts).
-BOT_A, BOT_B = 16.0, -9.2
-# weighting constants: smaller => that market claims more teams
+# BOTTOM odds -> expected points:  bpts = A + B * ln P(relegated, bottom 3)
+# Re-fit to the relegation market: the shortest (~63% to go down -> ~21 pts), a
+# borderline ~10% shot -> ~42 pts.
+BOT_A, BOT_B = 15.8, -11.4
+# weighting constants: smaller => that market claims more teams. C_BOTTOM widened
+# for the relegation scale (probs run larger) so safe teams lean on the table.
 C_TITLE = 0.02
-C_BOTTOM = 0.05
+C_BOTTOM = 0.08
 
 
 def _read_outright(path):
@@ -60,7 +64,8 @@ def _read_points(path):
 
 
 def _read_relegation(path):
-    """'to finish bottom' odds -> vig-free P(finish bottom), normalised to sum 1."""
+    """'to be relegated (bottom 3)' odds -> vig-free P(relegated), de-vigged so the
+    field sums to 3 (three teams go down). Each value is a real relegation prob."""
     prices = {}
     with open(path, encoding="utf-8") as f:
         for ln in f:
@@ -71,8 +76,8 @@ def _read_relegation(path):
             if val:
                 prices[name] = float(val)
     raw = {t: 1.0 / o for t, o in prices.items()}
-    s = sum(raw.values())
-    return {t: v / s for t, v in raw.items()}
+    scale = sum(raw.values()) / 3.0
+    return {t: v / scale for t, v in raw.items()}
 
 
 def build(data_dir=DATA):
